@@ -6,9 +6,7 @@ public class Priority {
 
     @Test(priority = 3)
     public void First(){
-        System.out.println("1st");
-
-    }
+        System.out.println("1st");}
     @Test(priority = 2)
     public void Second(){
         System.out.println("2nd");
@@ -21,3 +19,4 @@ public class Priority {
 
 
 }
+

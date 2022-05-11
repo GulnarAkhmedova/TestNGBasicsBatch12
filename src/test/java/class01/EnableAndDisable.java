@@ -5,12 +5,12 @@ import org.testng.annotations.Test;
 public class EnableAndDisable {
 
     @Test(enabled = false)
-    public void First(){
+    public void FirstTest(){
         System.out.println("1st");
 
     }
     @Test
-    public void Second(){
+    public void SecondTest(){
         System.out.println("2nd");
     }
     @Test
